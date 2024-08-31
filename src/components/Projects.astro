@@ -13,9 +13,9 @@ import Angular from "./icons/Angular.astro"
 import Bootstrap from "./icons/Bootstrap.astro"
 import HTML from "./icons/HTML.astro"
 import virtualBox from "./icons/virtualBox.astro"
-import linux from "./icons/linux.astro"
-import windows from "./icons/windows.astro"
-import vmware from "./icons/vmware.astro"
+import Linux from "./icons/Linux.astro"
+import Windows from "./icons/Windows.astro"
+import Vmware from "./icons/Vmware.astro"
 import pfsense from "./icons/pfsense.astro"
 
 
@@ -74,25 +74,30 @@ const TAGS = {
     class: "bg-blue-500 text-white",
     icon: HTML, 
   },
- virtualBox: {
-    name: "virtualBox",
+ VirtualBox: {
+    name: "VirtualBox",
     class: "bg-blue-500 text-white",
-    icon: virtualBox, 
+    icon: VirtualBox, 
   },
-  linux: {
-    name: "linux",
+  Linux: {
+    name: "Linux",
     class: "bg-blue-500 text-white",
-    icon: linux, 
+    icon: Linux, 
   },
-  vmware: {
-    name: "vmware",
+  Vmware: {
+    name: "Vmware",
     class: "bg-blue-500 text-white",
-    icon: vmware, 
+    icon: Vmware, 
   },
   pfsense: {
     name: "pfsense",
     class: "bg-blue-500 text-white",
     icon: pfsense, 
+  },
+     Windows: {
+    name: "Windows",
+    class: "bg-blue-500 text-white",
+    icon: Windows, 
   },
    
    
@@ -123,7 +128,7 @@ const PROJECTS = [
     link: "http://crud-devsecops.free.nf/",
     github: "https://github.com/ImaneLamriui/CRUD-DevSecOps",
     image: "/projects/crudDevsecops.webp",
-    tags: [TAGS.HTML, TAGS.bootstrap, TAGS.PHP, TAGS.SQL],
+    tags: [TAGS.HTML, TAGS.Bootstrap, TAGS.PHP, TAGS.SQL],
   },
    {
     title: "El firewall pfSense",
@@ -131,7 +136,7 @@ const PROJECTS = [
     link: "https://imanelmr.hashnode.dev/configuring-ipsec-for-one-branch",
     github: "https://github.com/ImaneLamriui/Optimizing-Virtual-Networks-with-pfSense-Firewall",
     image: "/projects/pfsense.webp",
-    tags: [TAGS.virtualBox, TAGS.linux, TAGS.windows, TAGS.vmware, TAGS.pfsense],
+    tags: [TAGS.VirtualBox, TAGS.Linux, TAGS.Windows, TAGS.Vmware, TAGS.pfsense],
   },
    {
     title: "Calculador con Python",
