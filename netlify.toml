@@ -1,5 +1,11 @@
+# Configuración general
 [build]
-  command = "pnpm install --no-frozen-lockfile && pnpm build"
+command = "pnpm install --no-frozen-lockfile && pnpm build"
+publish = "dist" # Asegúrate de que esta ruta coincida con la carpeta de salida de tu build.
 
+# Configuración del entorno
 [build.environment]
-  NPM_FLAGS = "--force"
+NODE_VERSION = "18" # Ajusta la versión de Node.js según tus necesidades
+
+# Otros bloques de configuración pueden ir aquí...
+
