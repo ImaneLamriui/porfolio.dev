@@ -4,6 +4,24 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import CSS from "./icons/CSS.astro"
+import PHP from "./icons/PHP.astro"
+import Javascript from "./icons/Javascript.astro"
+import SQL from "./icons/SQL.astro"
+import Typescript from "./icons/Typescript.astro"
+import Angular from "./icons/Angular.astro"
+import Bootstrap from "./icons/Bootstrap.astro"
+import HTML from "./icons/HTML.astro"
+import virtualBox from "./icons/virtualBox.astro"
+import linux from "./icons/linux.astro"
+import windows from "./icons/windows.astro"
+import vmware from "./icons/vmware.astro"
+import pfsense from "./icons/pfsense.astro"
+
+
+
+
+
 
 const TAGS = {
   NEXT: {
@@ -16,24 +34,112 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+   CSS: {
+    name: "CSS",
+    class: "bg-blue-500 text-white",
+    icon: CSS, 
+  },
+  PHP: {
+    name: "PHP",
+    class: "bg-blue-500 text-white",
+    icon: PHP, 
+  },
+   Javascript: {
+    name: "Javascript",
+    class: "bg-blue-500 text-white",
+    icon: Javascript, 
+  },
+    SQL: {
+    name: "SQL",
+    class: "bg-blue-500 text-white",
+    icon: SQL, 
+  },
+   Typescript: {
+    name: "Typescript",
+    class: "bg-blue-500 text-white",
+    icon: Typescript, 
+  },
+   Angular: {
+    name: "Angular",
+    class: "bg-blue-500 text-white",
+    icon: Angular, 
+  },
+  Bootstrap: {
+    name: "Bootstrap",
+    class: "bg-blue-500 text-white",
+    icon: Bootstrap, 
+  },
+   HTML: {
+    name: "HTML",
+    class: "bg-blue-500 text-white",
+    icon: HTML, 
+  },
+ virtualBox: {
+    name: "virtualBox",
+    class: "bg-blue-500 text-white",
+    icon: virtualBox, 
+  },
+  linux: {
+    name: "linux",
+    class: "bg-blue-500 text-white",
+    icon: linux, 
+  },
+  vmware: {
+    name: "vmware",
+    class: "bg-blue-500 text-white",
+    icon: vmware, 
+  },
+  pfsense: {
+    name: "pfsense",
+    class: "bg-blue-500 text-white",
+    icon: pfsense, 
+  },
+   
+   
+
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
-    description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
+    title: "FIT_Center",
+    description: "Este proyecto muestra todos los pasos seguidos para construir una Aplicación Web para la reserva de clases de deporte a distancia. Este proyecto ha sido construido puramente con lenguajes de marcas: HTML, CSS3. Lenguajes de programación: Javascript, PHP. Tecnologías como AJAX, JSON, jQuery. Y el framework Bootstrap.",
+    link: "http://fit-center.000.pe/",
+    github: "https://github.com/ImaneLamriui/FIT_Center-Project",
     image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    tags: [TAGS.HTML, TAGS.CSS,TAGS.Bootstrap,TAGS.Javascript, TAGS.PHP, TAGS.SQL],
   },
-  {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    {
+    title: "Academía a distancia de enseñanza de Arte",
+    description: "Aplicación desarrollada con Angular, para enseñanza de arte a distancia, Este proyecto fue generado con Angular CLI versión. Me he enfocado únicamente en el lado funcional de la aplicación, y el diseño web se ha integrado solo en la medida necesaria para realizar estas funcionalidades.",
+    link: "https://academia-bf787.web.app/",
+    github: "https://github.com/ImaneLamriui/AcademyApp",
+    image: "/projects/academiaArte.webp",
+    tags: [TAGS.Angular, TAGS.Typescript],
+  },
+  
+ 
+   {
+    title: "CRUD-DevSecOps",
+    description: "Esta aplicación CRUD es desarrollada para gestionar ventas de componentes electronicos, en la cual hay una combinación de desarrollo(Dev), seguridad(sec) y Pperaciones(Ops), esta fortalecida con medidas de sanitazación y parametros queries y otros medidas de seguridad",
+    link: "http://crud-devsecops.free.nf/",
+    github: "https://github.com/ImaneLamriui/CRUD-DevSecOps",
+    image: "/projects/crudDevsecops.webp",
+    tags: [TAGS.HTML, TAGS.bootstrap, TAGS.PHP, TAGS.SQL],
+  },
+   {
+    title: "El firewall pfSense",
+    description: "optimización de redes virtuales utilizando el firewall pfSense,atraves de Crear y configurar una interfaz de red Ethernet para pfSense en un entorno virtualizado.Optimizar y maximizar la seguridad de la red informática de una empresa, como cuando utilizamos pfSense para ello, y que este proyecto lo realicé con la conexión de varias máquinas virtuales.",
+    link: "https://imanelmr.hashnode.dev/configuring-ipsec-for-one-branch",
+    github: "https://github.com/ImaneLamriui/Optimizing-Virtual-Networks-with-pfSense-Firewall",
+    image: "/projects/pfsense.webp",
+    tags: [TAGS.virtualBox, TAGS.linux, TAGS.windows, TAGS.vmware, TAGS.pfsense],
+  },
+   {
+    title: "Calculador con Python",
+    description:"Calculadora desarrollada con Python, incluye un archivo ejecutable para la ejecución de lla calculadora en cualquier sistema operativo teniendo o no Python instalado.",
+    link: "https://github.com/ImaneLamriui/Calculator-Python/blob/main/Calculatorpython/dist/CalculatorPython.exe",
+    github: "https://github.com/ImaneLamriui/Calculator-Python-with-EXE-File",
+    image: "/projects/calculadorPython.webp",
+    tags: [TAGS.HTML, TAGS.bootstrap, TAGS.PHP, TAGS.SQL],
   },
 ]
 ---
@@ -44,7 +150,7 @@ const PROJECTS = [
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
     <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+      <img alt="proyecto" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
     </div>
   </div>
 
@@ -52,10 +158,15 @@ const PROJECTS = [
     <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
       {title}
     </h3>
+     
     <div class="flex flex-wrap mt-2">
       <ul class="flex flex-row mb-2 gap-x-2">
           {tags.map((tag) => (
+//AÑADIR ESTA LINEA PARA APARICIÓN DE LOS TAGS QUE FALTAN
+ tag?.class && tag?.icon && (
+
             <li>
+            
               <span
                 class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
               >
@@ -63,6 +174,9 @@ const PROJECTS = [
                 {tag.name}
               </span>
             </li>
+            //----
+            )
+            //-------
           ))}
         </ul>
 
@@ -88,6 +202,3 @@ const PROJECTS = [
     ))
   }
 </div>
-
-
-

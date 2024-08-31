@@ -1,0 +1,13 @@
+---
+import { defineComponent } from 'astro';
+import type { Props } from './types';
+
+interface Props {
+  title: string;
+  count: number;
+}
+
+const { title, count }: Props = Astro.props;
+---
+
+
