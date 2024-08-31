@@ -1,2 +1,5 @@
 [build]
   command = "pnpm install --no-frozen-lockfile && pnpm build"
+
+[build.environment]
+  NPM_FLAGS = "--force"
