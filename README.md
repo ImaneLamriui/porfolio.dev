@@ -1,6 +1,10 @@
 # # 👨🏻‍💻 Porfolio para programadores y desarrolladores
 ### He actualizado mi sitio web a un portafolio interactivo usando una increíble plantilla de Astro. Si estás pensando en crear o actualizar tu propio portafolio, te animo a probar esta plantilla, te ayudará a destacar tus proyectos de manera profesional.
 
+deployed using Netflix's infrastructure platform, which allows for efficient and scalable
+🔗 exolora netflix plataform:
+https://www.netflix.com
+
 🔗 Explora mi portafolio aquí: https://imanelmr.netlify.app/
 
 
