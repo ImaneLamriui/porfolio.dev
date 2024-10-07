@@ -3,7 +3,7 @@
 
 deployed using Netflix's infrastructure platform, which allows for efficient and scalable
 🔗 exolora netflix plataform:
-https://www.netflix.com
+https://www.netlify.com
 
 🔗 Explora mi portafolio aquí: https://imanelmr.netlify.app/
 
