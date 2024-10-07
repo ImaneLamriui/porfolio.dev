@@ -9,6 +9,8 @@ import PHP from "./icons/PHP.astro"
 import Javascript from "./icons/Javascript.astro"
 import SQL from "./icons/SQL.astro"
 import Angular from "./icons/Angular.astro"
+import Python from "./icons/Python.astro"
+
 
 
 
@@ -19,8 +21,8 @@ const TAGS = {
     icon: NextJS,
   },
   TAILWIND: {
-    name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
+    name: "Tailwind",
+    class: "bg-blue-500 text-white",
     icon: Tailwind,
   },
    CSS: {
@@ -49,6 +51,13 @@ const TAGS = {
     class: "bg-blue-500 text-white",
     icon: Angular, 
   },
+  Python: {
+    name: "Python",
+    class: "bg-blue-500 text-white",
+    icon: Python, 
+  },
+ 
+
 
   
 
@@ -63,7 +72,7 @@ const PROJECTS = [
     tags: [TAGS.CSS, TAGS.Javascript, TAGS.PHP, TAGS.SQL],
   },
     {
-    title: "Academía a distancia de enseñanza de Arte",
+    title: "Escuela de Arte a Distancia",
     description: "Aplicación desarrollada con Angular, para enseñanza de arte a distancia, Este proyecto fue generado con Angular CLI versión. Me he enfocado únicamente en el lado funcional de la aplicación, y el diseño web se ha integrado solo en la medida necesaria para realizar estas funcionalidades.",
     link: "https://academia-bf787.web.app/",
     github: "https://github.com/ImaneLamriui/AcademyApp",
@@ -88,14 +97,38 @@ const PROJECTS = [
     image: "/projects/pfsense.webp",
     tags: [],
   },
-   {
-    title: "Calculador con Python",
+  {
+    title: "Calculadora con Python",
     description:"Calculadora desarrollada con Python, incluye un archivo ejecutable para la ejecución de lla calculadora en cualquier sistema operativo teniendo o no Python instalado.",
-    link: "https://github.com/ImaneLamriui/Calculator-Python/blob/main/Calculatorpython/dist/CalculatorPython.exe",
+  
     github: "https://github.com/ImaneLamriui/Calculator-Python-with-EXE-File",
     image: "/projects/calculadorPython.webp",
-    tags: [TAGS.PHP, TAGS.SQL],
+    tags: [TAGS.Python],
   },
+   {
+    title: "Interfaces gráficas con Python",
+    description:"Este proyecto explora la creación de interfaces gráficas de usuario (GUI) utilizando Python. A través de bibliotecas como Tkinter. El proyecto incluye ejemplos prácticos que demuestran cómo implementar componentes de la interfaz, gestionar eventos y mejorar la experiencia del usuario.",
+  
+    github: "https://github.com/ImaneLamriui/Graphical-Interfaces-Python",
+    image: "/projects/graficinterfacepython.webp",
+    tags: [TAGS.Python],
+  },
+  {
+    title: "Proyecto Portafolio Open Source Adaptado y Desplegado",
+    description: "Portafolio con Astro: Este proyecto fue creado adaptando una plantilla de Astro, donde personalicé el diseño y añadí funcionalidades específicas para mostrar mi portafolio como desarrolladora web. Mi contribución fue Personalización de la plantilla, estructura y diseño del contenido. ",
+    link: "https://imanelmr.netlify.app/",
+    github: "https://github.com/ImaneLamriui/porfolio.dev",
+    image: "/projects/portfolio.webp",
+    tags: [TAGS.Javascript, TAGS.CSS, TAGS.TAILWIND],
+  },
+  {
+    title: "Proyecto CRM-básica Open Source Adaptado y Desplegado",
+    description: "He desplegado el proyecto y he practicado el desarrollo de una herramienta esencial para la gestión de relaciones con los clientes (CRM), la cual se puede adaptar a futuros proyectos.",
+    link: "http://basic-crm.free.nf/",
+    github: "https://github.com/ImaneLamriui/Basic-CRM",
+    image: "/projects/CRM.webp",
+    tags: [TAGS.PHP, TAGS.SQL],
+  }
 ]
 ---
 
